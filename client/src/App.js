@@ -13,6 +13,7 @@ import Login from './Login';
 import Passwords from './Passwords';
 import Register from './Register';
 import SectionItems from './SectionItems';
+import Components from './Components';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/components">
+            <Components />
           </Route>
           <Route path="/passwords">
             <Passwords />
