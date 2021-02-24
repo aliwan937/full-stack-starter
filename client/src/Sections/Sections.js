@@ -13,7 +13,9 @@ function Sections(){
             <SectionForm />
 
             </Route>
-
+            <Route path={`${path}/:id/edit`}>
+            <SectionForm />
+            </Route>
         </Switch>
 
     );
